@@ -113,7 +113,8 @@ def main():
     </style>
     """, unsafe_allow_html=True)
 
-    st.markdown('<p class="main-title">📚 高中英语单词小测验 v1.0</p>', unsafe_allow_html=True)    st.markdown('<p class="subtitle">每组 10 个单词，选出正确的中文意思吧！</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-title">📚 高中英语单词小测验 v1.0</p>', unsafe_allow_html=True)    
+    st.markdown('<p class="subtitle">每组 10 个单词，选出正确的中文意思吧！</p>', unsafe_allow_html=True)
 
     # 初始化 session state
     if "started" not in st.session_state:
